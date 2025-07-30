@@ -1,6 +1,6 @@
 # Concurrent HTTP Server
 
-A multithreaded **HTTP/1.1** server written in C 11. It supports `GET` and `PUT` (file upload) and remains safe under heavy parallel load thanks to a lock‑free dispatch queue and per‑URI reader/writer locking.
+A multithreaded **HTTP/1.1** server written in C. It supports `GET` and `PUT` (file upload) and remains safe under heavy parallel load thanks to a lock‑free dispatch queue and per‑URI reader/writer locking.
 
 ---
 
